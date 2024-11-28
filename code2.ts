@@ -23,10 +23,10 @@ class Counter extends Component<{}, CounterState> {
 	// Step 5: Render the component
 	render() {
 		return (
-			<div>
+			<h1>
 				<p>Count: {this.state.count}</p>
 				<button onClick={this.increment}>Increment</button>
-			</div>
+			</h1>
 		);
 	}
 }
